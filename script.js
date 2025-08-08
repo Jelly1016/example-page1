@@ -1,4 +1,4 @@
-const form = document.getElementById('questionForm');
+const form = document.getElementById('questionForm1');
 const resultDiv = document.getElementById('result');
 const LOCAL_KEY = 'user-choice1';
 const REFRESH_KEY = 'refresh-count';
@@ -32,4 +32,5 @@ form.addEventListener('submit', function (e) {
   resultDiv.textContent = `你回答错了，请从主办者获取线索`;
   resultDiv.classList.remove('hidden');
 });
+
 
