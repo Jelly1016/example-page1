@@ -1,6 +1,6 @@
 const form = document.getElementById('questionForm1');
 const resultDiv = document.getElementById('result');
-const LOCAL_KEY = 'user-choice';
+const LOCAL_KEY = 'user-choice1';
 const REFRESH_KEY = 'refresh-count';
 
 // 记录刷新次数
