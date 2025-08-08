@@ -1,6 +1,6 @@
 const form = document.getElementById('questionForm');
 const resultDiv = document.getElementById('result');
-const LOCAL_KEY = 'user-choice';
+const LOCAL_KEY = 'user-choice1';
 const REFRESH_KEY = 'refresh-count';
 
 // 记录刷新次数
@@ -32,3 +32,4 @@ form.addEventListener('submit', function (e) {
   resultDiv.textContent = `你回答错了，请从主办者获取线索`;
   resultDiv.classList.remove('hidden');
 });
+
